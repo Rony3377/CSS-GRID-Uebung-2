@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <title>css übungen</title>
+    <style>
+      nav {
+        background-color: blueviolet;
+        grid-row-end: span 2;
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+      header {
+        background-color: cadetblue;
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+      }
+      main {
+        background-color: darkgoldenrod;
+        display: grid;
+        grid-template-columns: 50% 50%;
+      }
+      .box1{
+        background-color:chocolate; 
+        grid-column-start: 2;
+        overflow: auto;
+      }
+      .box2{
+        background-color:crimson; 
+        grid-column-start: 1;
+        overflow: auto;
+      }
+      .box3{
+        background-color:darkgreen;
+        grid-column-start: 2;
+        grid-row-start: 3;
+        overflow: auto;
+      }
+      footer {
+        background-color: darkorchid;
+        grid-column-end: span 2;
+        display:grid;
+      }
+      body {
+        display: grid;
+        grid-template-columns: 20% 80%;
+      }
+      img{
+        width: 50%;
+        max-height: 50%;
+      }
+      .feld2{
+        display:flex;
+        flex-wrap: wrap;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <h3>
+        <img
+          src="https://www.urlaubstracker.de/wp-content/uploads/2015/04/Dominikanische_Republik_Strand_Palmen-1000x667.jpg"
+        />
+        <p>
+          Viele Angebote mit Reiseschutz: Reisen Karibik - Sicher beim
+          Urlaubsexperten buchen! Entdecke die schönsten Karibik Hotels! Dein
+          Glück beginnt hier - bei ab in den urlaub
+        </p>
+        <img
+          src="https://www.urlaubsrosi.de/wp-content/uploads/2019/10/shutterstock_1273553572.jpg"
+        />
+        <p>
+          Jetzt auch mit Reiseschutz bis kurz vor Abreise! Top Last Minute
+          Reisen clever buchen. Starte dein Urlaubsglück! Buche jetzt deine
+          perfekten Reisen bis -50% bei ab in den urlaub
+        </p>
+      </h3>
+    </nav>
+    <header>
+      <div><a href="index.html">starseite</a></div>
+      <div><a href="flix.html">kontakt</a></div>
+      <div><a href="kliks.html">impressum</a></div>
+      <div><a href="imdex.html">suchen</a></div>
+    </header>
+    <main>
+      <div class="box1">
+        <img src="https://i.ytimg.com/vi/Rk4ja0K1lo8/maxresdefault.jpg" />
+        <p>
+          raumhafte Reisen billiger buchen! Alle Veranstalter bei Reisen.de Auf
+          Reisen.de können Sie sogar nach Ferienwohnungen suchen.
+        </p>
+      </div>
+      <div class="box2">
+        <img
+         
+        <p>
+          Über 500 Reiseberater · Nirgendwo Günstiger · Persönliche
+          Reiseexperten Typen: Last Minute, All Inclusive, Frühbucher,
+          Pauschalreise,
+        </p>
+        src="https://i.pinimg.com/originals/4c/9f/7f/4c9f7ff2aebacc9713bdbb10bd0fcad8.jpg"
+        />
+      </div>
+      <div class="box3">
+        <img
+          src="https://mexxidu.com/wp-content/uploads/2021/04/25-1536x740.png"
+        />
+        <p>
+          etzt auch mit Reiseschutz bis kurz vor Abreise! Top Last Minute Reisen
+          clever buchen. Starte dein Urlaubsglück! Buche jetzt deine perfekten
+          Reisen bis -50% bei ab in den urlaub
+        </p>
+      </div>
+    </main>
+    <footer>
+
+    <div class="feld1">
+      (Reisen.de geht günstig Urlaub machen ganz einfach: Da Reisen.de Urlaubsangebote mehrerer Quellen miteinander vergleicht;)
+    </div>
+    <div class="feld2">
+      <ul>
+        <li>koln</li>
+        <li>frankfurt</li>
+        <li>heidelberg</li>
+        <li>berlin</li>
+      </ul>
+      <img src="https://roschmann.group/files/2018/06/copyright-andreas-meinhardt_mg_4070.jpg"/>
+
+    </div>
+    </footer>
+  </body>
+</html>
